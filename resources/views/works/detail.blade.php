@@ -9,7 +9,7 @@
                         class="absolute left-0 top-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                     <a href="/works">Назад</a>
                 </button>
-                <h1 class="mb-4 text-4xl max-w-[400px] mx-auto break-all font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">{{ $work->name }}</h1>
+                <h1 class="mb-4 text-2xl max-w-[400px] mx-auto break-all font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">{{ $work->name }}</h1>
                 <p class="mb-6 text-lg w-full mx-auto break-all font-normal text-gray-800 lg:text-xl sm:px-16 xl:px-48">{{ $work->desc}}</p>
             </div>
             <div class="flex flex-col items-center justify-center w-full">
